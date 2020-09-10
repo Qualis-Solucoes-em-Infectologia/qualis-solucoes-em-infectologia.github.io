@@ -2,19 +2,22 @@
 
 
 
-<!--more-->
+
 
 {{< admonition tip "Serviço: Consultoria Ambientes Seguros" >}}
 
 Com a retomada das atividades econômicas, empresas devem estabelecer barreiras de prevenção da disseminação local de infecções. 
 
 
+
 {{< /admonition >}}
 
 Esta é a forma que o setor econômico tem de demonstrar aos colaboradores, clientes, parceiros e sociedade em geral o compromisso, assim como o respeito, pela saúde e segurança de todos.
-
+<!--more-->
 ## 1 COVID-19
 Durante a pandemia de COVID-19, os estabelecimentos devem otimizar as boas práticas em relação sobre: Controle de Infecções, Segurança dos Profissionais, Segurança de Prestadores de Serviços, Segurança de Clientes e Segurança de Alunos.
+
+
 
 ## 2 Escolas
 Através da análise de indicadores de adesão as boas práticas e medidas de segurança é emitido um certificado, selo que comprova a segurança do ambiente auditado. 
