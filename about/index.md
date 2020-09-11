@@ -12,6 +12,9 @@ Somos uma empresa de saúde que oferece serviços e produtos voltados para a ár
 ###  Como funciona
 
 A Qualis propõe e participa de uma mudança nos processos de trabalho de controle de antimicrobianos, controle de infecções, vigilância epidemiológica das infecções e consultorias em infectologia com um conjunto de tecnologias inovadoras centralizadas no portalqualis. Essa reorganização dos serviços de controle de infecção hospitalar em uma cadeia com regras, normas e contingências melhora a eficiência, a qualidade e cria mecanismos de segurança para o paciente, profissional e ambiente hospitalar.
+
+Conheça nossos produtos e serviços, {{< link "/01" "leia mais aqui!" >}} 
+
 {{< /admonition >}}
 
 
