@@ -33,10 +33,7 @@ CEO - Fundador. Graduação em Medicina pela UFSM 1998. Fez três anos de resid�
 Sócia. Diretora Médica. Graduação em medicina em 2009(UFSM). Realizou residência médica em infectologia no hospital Universitário de Santa Maria (2013) e residência médica em infectologia hospitalar no Hospital de Clínicas de Porto Alegre (2014). Atualmente é médica infectologista da Qualis e do serviço de controle de infecção do hospital de Clínicas de Porto Alegre.
 {{< link "http://lattes.cnpq.br/1940011991081844"  "Curriculo Lattes" >}}
 
-
-
-
-{{< figure src="tiago_.jpg" title="Tiago Andres Vaz" >}}
+{{< figure src="tiago.jpg" title="Tiago Andres Vaz" height="500" width="300">}}
 
 Sócio. Head of A.I. Responsável pelo desenvolvimento, implementação e avaliação de Tecnologia da Informação e Inteligência Artificial para Saúde e trabalha como Assessor de TI do Hospital de Clínicas de Porto Alegre. Graduado em Ciência da Computação pela PUC-RS e Pós-Graduado na Sloan School of Management do Massachusetts Institute of Technology (MIT). Fez MBA Executivo na Escola Superior de Propaganda e Marketing e especialização em Gestão da Mudança na Harvard Business School (HBS), é Doutorando em Epidemiologia e Mestre em Pesquisa Clínica pela Faculdade de Medicina da Universidade Federal do Rio Grande do Sul.
 {{< link "http://lattes.cnpq.br/3125940334707048"  "Curriculo Lattes" >}}
