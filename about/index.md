@@ -31,6 +31,7 @@ CEO - Fundador. Graduação em Medicina pela UFSM 1998. Fez três anos de resid�
 
 
 Sócia. Diretora Médica. Graduação em medicina em 2009(UFSM). Realizou residência médica em infectologia no hospital Universitário de Santa Maria (2013) e residência médica em infectologia hospitalar no Hospital de Clínicas de Porto Alegre (2014). Atualmente é médica infectologista da Qualis e do serviço de controle de infecção do hospital de Clínicas de Porto Alegre.
+
 {{< link "http://lattes.cnpq.br/1940011991081844"  "Curriculo Lattes" >}}
 
 {{< figure src="tiago.jpg" title="Tiago Andres Vaz" height="500" width="300">}}

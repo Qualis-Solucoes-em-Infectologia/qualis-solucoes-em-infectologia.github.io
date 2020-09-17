@@ -77,7 +77,7 @@ A vigilância epidemiológica, método de identificação de infecções hospita
 
 {{< /admonition >}}
 
-### 2.3 Perfil de Sensibilidade
+### 2.4 Perfil de Sensibilidade
 
 Com o módulo de Perfil de Sensibilidade do Portal Qualis, o médico infectologista tem a vantagem de consultar a qualquer momento o perfil de sensibilidade aos antimicrobianos dos microrganismos de seu hospital, podendo utilizar filtros para facilitar a consulta.
 
