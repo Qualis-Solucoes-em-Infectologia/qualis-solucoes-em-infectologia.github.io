@@ -2,6 +2,6 @@
 
 
 {{< admonition tip >}}
-:(far fa-bookmark fa-fw): a few more words about myself
+:(far fa-bookmark fa-fw): not translated yet
 {{< /admonition >}}
 
