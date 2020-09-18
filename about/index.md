@@ -26,43 +26,48 @@ Conheça nossos produtos e serviços, {{< link "/portfolio" "leia mais aqui!" >}
 ### Equipe
 
  
-{{< figure src="rodrigo_.jpg" title="Dr. Rodrigo Pires dos Santos (CEO-Fundador)" >}}
+{{< figure src="rodrigo.jpg" title="Dr. Rodrigo Pires dos Santos (CEO-Fundador)" height="500" width="300">}}
 
 CEO - Fundador. Graduação em Medicina pela UFSM 1998. Fez três anos de residência médica em Medicina Interna e 2 anos de residência médica em infectologia pelo Hospital de Clínicas de Porto Alegre. Doutorado em Medicina: Ciências Médicas pela UFRGS em 2008, com tese em Micobacteriose em pacientes HIV-positivos. Pós-doutorado pela UFRGS. Consultor da ANVISA para medicamentos em 2005. Médico executivo do Controle de Infecção do Hospital de Clínicas de Porto Alegre de 2003 a 2009. Professor do Programa de Pós-Graduação da Fundação Universidade de Cardiologia desde dezembro de 2009.
 {{< link "http://lattes.cnpq.br/9335553569497676"  "Curriculo Lattes" >}}
 
-{{< figure src="camila_.jpg" title="Camila Hubner Dalmora" >}}
+{{< figure src="camila.jpg" title="Camila Hubner Dalmora" height="500" width="300">}}
 
 
 Sócia. Diretora Médica. Graduação em medicina em 2009(UFSM). Realizou residência médica em infectologia no hospital Universitário de Santa Maria (2013) e residência médica em infectologia hospitalar no Hospital de Clínicas de Porto Alegre (2014). Atualmente é médica infectologista da Qualis e do serviço de controle de infecção do hospital de Clínicas de Porto Alegre.
 
 {{< link "http://lattes.cnpq.br/1940011991081844"  "Curriculo Lattes" >}}
 
-{{< figure src="tiago.jpg" title="Tiago Andres Vaz" height="500" width="300">}}
+{{< figure src="tiago_vaz.jpg" title="Tiago Andres Vaz" height="500" width="300">}}
 
 Sócio. Head of A.I. Responsável pelo desenvolvimento, implementação e avaliação de Tecnologia da Informação e Inteligência Artificial para Saúde e trabalha como Assessor de TI do Hospital de Clínicas de Porto Alegre. Graduado em Ciência da Computação pela PUC-RS e Pós-Graduado na Sloan School of Management do Massachusetts Institute of Technology (MIT). Fez MBA Executivo na Escola Superior de Propaganda e Marketing e especialização em Gestão da Mudança na Harvard Business School (HBS), é Doutorando em Epidemiologia e Mestre em Pesquisa Clínica pela Faculdade de Medicina da Universidade Federal do Rio Grande do Sul.
 {{< link "http://lattes.cnpq.br/3125940334707048"  "Curriculo Lattes" >}}
 
 
 
-{{< figure src="leticia.jpg" title="Letícia Lobo" >}}
+{{< figure src="leticia_lobo.jpg" title="Letícia Lobo" height="500" width="300">}}
 
 Médica infectologista. Formação em Medicina pela Universidade Federal de Pelotas (2006), Residência Médica em Infectologia pelo Hospital São Lucas PUCRS (2007-2010). Atuação como preceptora da Residência Médica de Infectologia Hospital São Lucas PUCRS (2010-2017), Serviço de Controle de Infecção do Hospital São Lucas PUCRS (2010- 2019), Núcleo de Vigilância Epidemiológica Hospitalar do Hospital São Lucas PUCRS (2011-2019), Núcleo de Vigilância Epidemiológica Hospitalar do Grupo Hospitalar Nossa Senhora da Conceição (2018) e Comissão de Controle de Infecção Hospitalar do Hospital de Clínicas de Porto Alegre (2018-2019).
 
-{{< figure src="stephani_.jpg" title="Stephani Lukasewicz" >}}
+{{< figure src="stephani.jpg" title="Stephani Lukasewicz" height="500" width="300">}}
 
 
 Enfermeira. Graduada em enfermagem pela UFRGS (2012), Especialista em Controle de Infecção Hospitalar pelo pelo Hospital de Clínicas de Porto Alegre (2015) e Mestre em Epidemiologia pela UFRGS (2018). Enfermeira da Qualis desde 2015. Possui experiência na área de enfermagem com ênfase em epidemiologia das infecções relacionadas à assistência à saúde (IRAS), gestão de indicadores e controle de infecções e telemedicina para prevenção e controle de IRAS.
 
-{{< figure src="otavio_.jpg" title="Otávio Luiz da Fontoura Carvalho" >}}
+{{< figure src="otavio.jpg" title="Otávio Luiz da Fontoura Carvalho" height="500" width="300">}}
 
 Farmacêutico. Graduado em farmácia pela Pontifícia Universidade Católica do Rio Grande do Sul (2011). Especialista em Farmácia Clínica pela Pontifícia Universidade Católica do Rio Grande do Sul (2013). Farmacêutico da Qualis desde 2014. Possui experiência na área de serviço de controle de infecção hospitalar com ênfase em programa de gerenciamento para o uso racional de antimicrobianos (Antimicrobial Stewardship) e gestão de indicadores epidemiológicos.
 
-{{< figure src="arateus_.jpg" title="Arateus Meneses" >}}
+{{< figure src="arateus.jpg" title="Arateus Meneses" height="500" width="300">}}
 
-Estagiário do Time de Inteligência Artificial. Bacharelando em Ciências da Computação na Universidade Federal do Rio Grande do Sul (UFRGS)
+Estagiário do Time de Inteligência Artificial. Bacharelando em Ciências da Computação na Universidade Federal do Rio Grande do Sul (UFRGS).
 
-{{< figure src="celia_.jpg" title="Célia Beatriz Silva" >}}
+{{< figure src="robson.jpg" title="Robson Ruiz" height="500" width="300">}}
+
+Estagiário do Time de Full Stack Development. Bacharelando em Informática Biomédica na Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA). Técnico em Informática pelo IFSul Campus Charqueadas.
+
+
+{{< figure src="celia.jpg" title="Célia Beatriz Silva" height="500" width="300">}}
 
 Gestora de relacionamentos. Bacharel em Direito, formada pela FADISA - Santo Ângelo/RS, com experiência em administração hospitalar e gestão de pessoas.
 
