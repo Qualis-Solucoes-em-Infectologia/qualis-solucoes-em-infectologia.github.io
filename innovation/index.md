@@ -9,7 +9,7 @@
 Com a retomada das atividades econômicas, empresas devem estabelecer barreiras de prevenção da disseminação local de infecções. 
 {{< /admonition >}}
 
-{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
+{{< style "text-align:justify;" >}}
 Esta é a forma que o setor econômico tem de demonstrar aos colaboradores, clientes, parceiros e sociedade em geral o compromisso, assim como o respeito, pela saúde e segurança de todos. 
 
 Nossa missão é identificar o trabalho como é realizado, envolvendo o time de trabalhadores, testar alternativas, treinar equipes, colocar em prática e reavaliar modificações são etapas deste processo de implementação de melhorias. 
@@ -33,8 +33,7 @@ Construído para aumentar a eficiência dos profissionais de CCIH.
 {{< admonition note "Inteligência Artificial" >}}
 A Inteligência Artificial (IA) é a capacidade aplicada a máquinas para simular processos realizados por humanos a partir do aprendizado de experiências reais. Nossa ferramenta de IA simula o que os profissionais de controle de infecção fazem na busca ativa de infecções hospitalares.
 {{< /admonition >}}
-{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
-
+{{< style "text-align:justify;" >}}
 Vigilância automatizada das infecções hospitalares utilizando ferramentas de inteligência artificial. Algoritmo baseado em aprendizado de máquina e processamento de linguagem natural da Qualis possibilita a vigilância global de infecções hospitalares, independente do tamanho da instituição, com acurácia e sensibilidade para identificação das infecções. Esta tecnologia possibilita uma melhor eficiência do controle de infecção, reduzindo o tempo para a vigilância destas infecções que pode chegar a 18 horas para cada 100 leitos por semana com o método manual usual. Além disso, possibilita que o profissional de controle de infecção esteja super utilizando seu expertise a beira de leito trabalhando na prevenção direta das infecções. O método proposto pela Qualis une a tecnologia com a revisão humana em um processo eficiente, semi-automatizado o que garante a segurança e melhora a acurácia e o valor preditivo positivo da análise.
 Portanto, ela busca e define infecções hospitalares e a partir deste diagnóstico cria uma lista de casos e seus respectivos critérios para serem confirmados ou excluídos pelos profissionais de controle de infecção (padrão ouro).
 

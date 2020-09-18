@@ -1,8 +1,7 @@
 # Portfólio
 
 
-{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
-
+{{< style "text-align:justify;" >}}
  
 Em hospitais trabalhamos para a segurança do paciente no que se refere a proteção contra infecções relacionadas à assistência de saúde. Estabelecer ações globais de prevenção, mas indo além para propor barreiras individualizadas no que se refere ao risco de infecção relacionada à assistência, ou resistência bacteriana e na prescrição de antimicrobianos. 
 
@@ -40,8 +39,7 @@ Com por exemplo, adesão à higiene de mãos, blundles prevenção de infecção
 {{< admonition tip "Motivação Especial" >}}
 A mobilidade para realização da coleta de dados dos processos de prevenção de risco de infecções hospitalares, além de uma facilidade é uma necessidade. Faça a coisa certa sem desperdícios.
 {{< /admonition >}}
-{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
-
+{{< style "text-align:justify;" >}}
 A nossa ferramenta possibilita ao controle de infecção a coleta de indicadores de processo, tais como adesão à higiene de mãos, inserção e manipulação de dispositivos invasivos e pacote de prevenção de pneumonias não associadas e associadas a ventilação mecânica, em um dispositivo móvel. 
 
 
