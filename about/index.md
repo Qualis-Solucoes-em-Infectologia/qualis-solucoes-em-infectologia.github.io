@@ -1,25 +1,26 @@
 # 
 
 
+{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
+ 
 
-
-## Sobre a Qualis
+### Sobre a Qualis
 
 Somos uma empresa de saúde que oferece serviços e produtos voltados para a área de infectologia e infecção hospitalar, via telemedicina. Nossos profissionais médicos, enfermeiros, farmacêuticos, especialistas em tecnologia da informação disponibilizam ferramentas e orientam processos de trabalho em uma rede conectada e de qualidade.
-
+{{< /style >}}
 {{< admonition tip "Participe da nova transformação digital e de processos em saúde.">}}
-
-###  Como funciona
+{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
+####  Como funciona
 
 A Qualis propõe e participa de uma mudança nos processos de trabalho de controle de antimicrobianos, controle de infecções, vigilância epidemiológica das infecções e consultorias em infectologia com um conjunto de tecnologias inovadoras centralizadas no portalqualis. Essa reorganização dos serviços de controle de infecção hospitalar em uma cadeia com regras, normas e contingências melhora a eficiência, a qualidade e cria mecanismos de segurança para o paciente, profissional e ambiente hospitalar.
 
-Conheça nossos produtos e serviços, {{< link "/01" "leia mais aqui!" >}} 
-
+Conheça nossos produtos e serviços, {{< link "/portfolio" "leia mais aqui!" >}} 
+{{< /style >}}
 {{< /admonition >}}
 
+{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
 
-
-## Equipe
+### Equipe
 
 
 {{< figure src="rodrigo_.jpg" title="Dr. Rodrigo Pires dos Santos (CEO-Fundador)" >}}
@@ -69,4 +70,4 @@ Gestora de relacionamentos. Bacharel em Direito, formada pela FADISA - Santo Ân
 Médica Infectologista. Graduação em Medicina pela Universidade Federal de Santa Maria (2007). Residência Médica em Infectologia no Hospital Universitário de Santa Maria/Universidade Federal de Santa Maria (2011-2014) Médica Infectologista em Serviço de Controle de Infecção Hospitalar (2014-2018) Médica Infectologista na Qualis Infectologia (2014) Médica Infectologista na Diretoria de Assistência Farmacêutica da Secretaria de Estado da Saúde de Santa Catarina. (2018)
 
 
-
+{{< /style >}}

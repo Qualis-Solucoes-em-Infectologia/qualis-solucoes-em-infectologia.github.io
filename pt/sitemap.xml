@@ -2,41 +2,23 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://qualis-solucoes-em-infectologia.github.io/02/</loc><lastmod>2020-09-01T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://qualis-solucoes-em-infectologia.github.io/innovation/</loc><lastmod>2020-09-01T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://qualis-solucoes-em-infectologia.github.io/en/02/"
+                        href="https://qualis-solucoes-em-infectologia.github.io/en/innovation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="pt"
-                    href="https://qualis-solucoes-em-infectologia.github.io/02/"
+                    href="https://qualis-solucoes-em-infectologia.github.io/innovation/"
                     /></url><url>
-            <loc>https://qualis-solucoes-em-infectologia.github.io/01/</loc><lastmod>2020-09-01T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://qualis-solucoes-em-infectologia.github.io/portfolio/</loc><lastmod>2020-09-01T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://qualis-solucoes-em-infectologia.github.io/en/01/"
+                        href="https://qualis-solucoes-em-infectologia.github.io/en/portfolio/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="pt"
-                    href="https://qualis-solucoes-em-infectologia.github.io/01/"
-                    /></url><url>
-            <loc>https://qualis-solucoes-em-infectologia.github.io/posts/</loc><lastmod>2020-09-01T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://qualis-solucoes-em-infectologia.github.io/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="pt"
-                    href="https://qualis-solucoes-em-infectologia.github.io/posts/"
-                    /></url><url>
-            <loc>https://qualis-solucoes-em-infectologia.github.io/</loc><lastmod>2020-09-01T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://qualis-solucoes-em-infectologia.github.io/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="pt"
-                    href="https://qualis-solucoes-em-infectologia.github.io/"
+                    href="https://qualis-solucoes-em-infectologia.github.io/portfolio/"
                     /></url><url>
             <loc>https://qualis-solucoes-em-infectologia.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
@@ -74,6 +56,15 @@
                     rel="alternate"
                     hreflang="pt"
                     href="https://qualis-solucoes-em-infectologia.github.io/categories/documentation/"
+                    /></url><url>
+            <loc>https://qualis-solucoes-em-infectologia.github.io/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://qualis-solucoes-em-infectologia.github.io/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt"
+                    href="https://qualis-solucoes-em-infectologia.github.io/"
                     /></url><url>
             <loc>https://qualis-solucoes-em-infectologia.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
