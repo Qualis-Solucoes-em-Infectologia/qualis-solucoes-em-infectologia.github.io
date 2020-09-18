@@ -1,14 +1,16 @@
 # 
 
 
-{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
  
 
 ### Sobre a Qualis
+{{< style "text-align:justify; strong{color:#00b1ff;}" >}}
 
 Somos uma empresa de saúde que oferece serviços e produtos voltados para a área de infectologia e infecção hospitalar, via telemedicina. Nossos profissionais médicos, enfermeiros, farmacêuticos, especialistas em tecnologia da informação disponibilizam ferramentas e orientam processos de trabalho em uma rede conectada e de qualidade.
 {{< /style >}}
+
 {{< admonition tip "Participe da nova transformação digital e de processos em saúde.">}}
+
 {{< style "text-align:justify; strong{color:#00b1ff;}" >}}
 ####  Como funciona
 
@@ -16,6 +18,7 @@ A Qualis propõe e participa de uma mudança nos processos de trabalho de contro
 
 Conheça nossos produtos e serviços, {{< link "/portfolio" "leia mais aqui!" >}} 
 {{< /style >}}
+
 {{< /admonition >}}
 
 {{< style "text-align:justify; strong{color:#00b1ff;}" >}}
