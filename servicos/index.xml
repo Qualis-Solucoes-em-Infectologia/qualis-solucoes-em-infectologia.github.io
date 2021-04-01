@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Serviços on Qualis - Tecnologia em Infectologia</title>
-    <link>https://www.qualisinfectologia.com.br/servicos/</link>
+    <link>https://qualis-solucoes-em-infectologia.github.io/servicos/</link>
     <description>Recent content in Serviços on Qualis - Tecnologia em Infectologia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Mar 2021 14:59:08 -0300</lastBuildDate><atom:link href="https://www.qualisinfectologia.com.br/servicos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Mar 2021 14:59:08 -0300</lastBuildDate><atom:link href="https://qualis-solucoes-em-infectologia.github.io/servicos/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
