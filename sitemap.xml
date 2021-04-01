@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://qualis-solucoes-em-infectologia.github.io/pt/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://qualis-solucoes-em-infectologia.github.io/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.qualisinfectologia.com.br/contato/</loc>
+    <lastmod>2021-03-12T14:59:08-03:00</lastmod>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/</loc>
+    <lastmod>2021-03-12T14:59:08-03:00</lastmod>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/resultados/</loc>
+    <lastmod>2021-03-12T14:59:08-03:00</lastmod>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/servicos/</loc>
+    <lastmod>2021-03-12T14:59:08-03:00</lastmod>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/sobre/</loc>
+    <lastmod>2021-03-12T14:59:08-03:00</lastmod>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/about/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/contato/contact/</loc>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/categories/</loc>
+  </url><url>
+    <loc>https://www.qualisinfectologia.com.br/tags/</loc>
+  </url>
+</urlset>
