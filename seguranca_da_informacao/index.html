@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Segurança da informação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Qualis">
+    <meta name="description" content="Qualis - Tecnologia em Infectologia">
+    <meta http-equiv="content-language" content="pt-BR" />
+
+  
+
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Qualis - Tecnologia em Infectologia">
+    <meta property="og:title" content="Segurança da informação">
+    <meta property="og:url" content="https://qualis-solucoes-em-infectologia.github.io/seguranca_da_informacao/">
+    <meta property="og:image" content="images/https://qualis-solucoes-em-infectologia.github.io/">
+    <meta name="twitter:title" content="Qualis - Tecnologia em Infectologia" />
+    <meta name="twitter:url" content="https://qualis-solucoes-em-infectologia.github.io/seguranca_da_informacao/" />
+    <meta name="twitter:image" content="images/https://qualis-solucoes-em-infectologia.github.io/" />
+    <meta name="twitter:card" content="" />
+    
+    
+    
+    <link rel="canonical" href="https://qualis-solucoes-em-infectologia.github.io/seguranca_da_informacao/"/>
+
+    
+    <link rel="shortcut icon" href="https://qualis-solucoes-em-infectologia.github.io/favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://qualis-solucoes-em-infectologia.github.io/css/leaflet.css" />
+
+    
+    <link rel="stylesheet" href="https://qualis-solucoes-em-infectologia.github.io/css/animate.css">
+    
+    <link rel="stylesheet" href="https://qualis-solucoes-em-infectologia.github.io/css/icomoon.css">
+    
+    <link rel="stylesheet" href="https://qualis-solucoes-em-infectologia.github.io/css/simple-line-icons.css">
+    
+    <link rel="stylesheet" href="https://qualis-solucoes-em-infectologia.github.io/css/magnific-popup.css">
+    
+    <link rel="stylesheet" href="https://qualis-solucoes-em-infectologia.github.io/css/bootstrap.css">
+   
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+    <link rel="stylesheet" href="https://qualis-solucoes-em-infectologia.github.io/css/style.css">
+
+    
+    
+    <link rel="stylesheet" href="css/custom1.css">
+    
+    <link rel="stylesheet" href="css/custom2.css">
+    
+
+    
+    <script src="https://qualis-solucoes-em-infectologia.github.io/js/modernizr-2.6.2.min.js"></script>
+    
+    
+
+</head>
+
+<body>
+
+        <header role="banner" id="fh5co-header">
+        <div class="container">
+            
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="https://qualis-solucoes-em-infectologia.github.io/index.html"><img src="https://qualis-solucoes-em-infectologia.github.io/images/Menu/logo_menu.png" style="width: 7em;"/></a> 
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="external" href="https://qualis-solucoes-em-infectologia.github.io/index.html" ><span>Inicial</span></a></li>
+
+                    
+                        <li><a class="external" href="/sobre"><span>Sobre</span></a></li>
+                    
+                        <li><a class="external" href="/servicos"><span>Serviços</span></a></li>
+                    
+                        <li><a class="external" href="/contato"><span>Contato</span></a></li>
+                    
+                        <li><a class="external" href="/resultados"><span>Resultados</span></a></li>
+                    
+
+
+
+                   
+
+                    
+
+                    
+                    <li><a href="#" data-nav-section="results"><span></span></a></li> 
+                    
+
+                  
+
+                    
+                    <li><a class="external" href="https://www.portalqualis.com.br/hospital/login"><span>ÁREA RESTRITA</span></a></li>
+
+                </ul>
+            </div>
+        </nav>
+        
+    </div>
+</header>
+
+<section id="fh5co-home" data-section="home" style="background-image: url(https://qualis-solucoes-em-infectologia.github.io/images/Menu/logo_menu.png);" data-stellar-background-ratio="0.5">
+    <div class="gradient"></div>
+    <div class="container">
+        <div class="text-wrap">
+            <div class="text-inner">
+                <div class="row">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slant"></div>
+</section>
+<style>
+    #fh5co-home, #fh5co-home .text-wrap {
+        height: 191px;
+    }
+    #fh5co-header.navbar-fixed-top {
+    position: fixed !important;
+    background: #45a7d7;
+    background-image: url('https://qualis-solucoes-em-infectologia.github.io/images/Home/menu_suspenso.png') !important;
+
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    top: 0;
+    background-position: right !important;
+
+    min-height: 5em;
+}
+.navbar-right {
+  
+    margin-top: 2rem;
+}
+#fh5co-header #navbar li a span {
+    position: relative;
+    display: block;
+    padding-bottom: 2px;
+    color: white;
+}
+.navbar-nav li:last-child{
+    background-color: #3f54d1 !important;
+    border-radius: 37px;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    #fh5co-header {
+        margin-top: 0;
+        background: #ffffff0d;
+        -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 90px;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: #0000;
+        background-color: #4ea8db;
+    }
+    #fh5co-header.navbar-fixed-top {
+        position: fixed !important;
+        background-image: url('https://qualis-solucoes-em-infectologia.github.io/images/Home/menu_suspenso.png') !important;
+        -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0) !important;
+        margin-top: 0px;
+        top: 0;
+        background-size: cover !important;
+        min-height: 5em;
+        background-position: center !important;
+        background-color: transparent !important;
+    }
+    .fh5co-nav-toggle i {
+        position: relative;
+        display: -moz-inline-stack;
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+        width: 25px;
+        height: 3px;
+        color: #fff;
+        font: bold 14px/.4 Helvetica;
+        text-transform: uppercase;
+        text-indent: -55px;
+        background: #fff;
+        transition: all .2s ease-out;
+    }
+    .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+        content: '';
+        width: 25px;
+        height: 3px;
+        background: #fff!important;
+            background-color: rgb(255, 255, 255)!important;
+        box-shadow: none !important;
+        position: absolute;
+        left: 0;
+        background-color: #fff!important;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        color: white!important;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: #0000;
+        background-color: #4ea8db;
+        margin-top: 24px;
+    }
+}
+
+
+
+
+
+</style>  <section id="fh5co-about" data-section="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading ">
+                <div class="text-center">
+                    <h2 class="to-animate">Segurança da informação</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-bottom: 50px;">
+            <style>
+                ol,
+                ul {
+                    color: black;
+                }
+                
+                ul.a {
+                    list-style-type: circle;
+                }
+                
+                ul.b {
+                    list-style-type: square;
+                }
+                
+                ol.c {
+                    list-style-type: upper-roman;
+                }
+                
+                ol.d {
+                    list-style-type: lower-alpha;
+                }
+                
+                p {
+                    margin-bottom: 1.5em;
+                    color: black;
+                }
+            </style>
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">1. OBJETIVOS</h3>
+                <p>Esta política visa garantir a aplicação de princípios, diretrizes e atribuições que permitam aos colaboradores (funcionários, terceiros e prestadores de serviços) da QUALIS seguirem padrões de comportamento relacionados à Segurança da
+                    Informação adequados às necessidades de negócio e de proteção legal da empresa e do titular de dados pessoais.
+                </p>
+            </div>
+
+
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">2. APLICAÇÃO</h3>
+                <p>
+                    &emsp;Esta política é aplicável a todas as informações sob gestão da QUALIS, que podem existir de muitas maneiras: escrita em papel, armazenada e transmitida pelo correio ou através de meios eletrônicos, exibida em filmes ou falada em conversas formais
+                    ou informais. Seja qual for a forma apresentada ou o meio pelo qual a informação seja apresentada ou compartilhada, deverá estar sempre protegida adequadamente.
+                    <br> &emsp;As informações de propriedade ou controladas pela QUALIS devem ser utilizadas apenas para uso próprio de propósitos definidos. Os usuários não podem, em qualquer tempo ou sob qualquer propósito, apropriar-se dessas informações
+                    para uso deliberado.
+                    <br> &emsp;De acordo com a PSI sempre que o usuário encontrar informações, aplicações ou procedimentos críticos sem o tratamento de segurança adequado, deverá informar seu superior imediato para que sejam tomadas providências necessárias.
+                    <br> &emsp;Esta política está relacionada com outras normas e procedimentos internos da QUALIS, quais sejam, Termo de Confidencialidade, Cartilha do Colaborador e Política de Privacidade e Proteção de Dados.
+                    <br> &emsp;É também obrigação de cada colaborador se manter atualizado em relação a esta PSI e aos procedimentos e normas relacionadas, buscando orientação do seu gestor ou do Comitê de Segurança da Informação sempre que não estiver
+                    absolutamente seguro quanto à aquisição, uso e/ou descarte de informações. Dúvidas sobre a aplicação desta política ou sugestões de alteração e melhorias podem ser encaminhadas para o e-mail contato@portalqualis.com.br
+
+
+                </p>
+            </div>
+
+
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">3. NORMAS DE SEGURANÇA CIBERNÉTICA</h3>
+                <p>
+                    &emsp;Para a uniformidade da informação, a PSI será comunicada aos usuários de forma clara e acessível, fortalecendo que a mesma faz parte de um programa de conscientização, educação e treinamento em segurança da informação.
+                    <br> &emsp;Esta PSI será implementada na QUALIS por meio de procedimentos específicos, obrigatórios para todos os usuários, independentemente do nível hierárquico ou função na empresa, bem como de vínculo empregatício ou prestação
+                    de serviço.
+
+                </p>
+
+                <div class="container">
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">3.1 Diretrizes
+                        </h3>
+                        <p>
+                            &emsp;Esta norma tem como objetivo estabelecer os procedimentos adequados para a correta utilização das chaves de acesso no ambiente de Tecnologia da Informação da QUALIS e será aplicada a todos os usuários que possuam chave de acesso aos sistemas.
+
+                            <br> &emsp;O acesso às informações e aos ambientes deve ser permitido apenas às pessoas autorizadas pelo proprietário da informação (Qualis), levando em consideração o princípio do menor privilégio, a segregação de funções
+                            conflitantes e a classificação da informação.
+
+                            <br> &emsp;A identificação do usuário por senha ou outro meio é pessoal e intransferível, qualificando-o como responsável por todas as atividades desenvolvidas através desta, sendo o único responsável por guardá-la com segurança
+                            e sigilo.
+
+                            <br> &emsp;O uso de dispositivos e/ou senhas de identificação de outra pessoa constitui crime tipificado no Código Penal Brasileiro (art. 307 – falsa identidade).
+
+                            <br> &emsp;Ao realizar o primeiro acesso ao ambiente de rede local, o usuário deverá trocar imediatamente a sua senha temporária conforme as orientações apresentadas.
+
+                            <br> &emsp;O uso compartilhado do ID de usuário somente será permitido quando for autorizado pelo Gestor, por razões operacionais ou de negócios, devendo este compartilhamento ser documentado. É proibido o compartilhamento
+                            de login para funções de administração de sistemas.
+
+                            <br> &emsp;Os usuários deverão criar senha de tamanho variável, possuindo no mínimo 8 (oito) caracteres alfanuméricos, utilizando caracteres especiais (@ # $ %) e variação entre caixa-alta e caixa-baixa (maiúsculo e minúsculo)
+                            obrigatoriamente.
+
+                            <br> &emsp;Para o desbloqueio as senhas devem estar relacionadas a um e-mail corporativo para a sua recuperação, sendo proibido a recuperação de senha com e-mail pessoal do usuário.
+
+                            <br> &emsp;A periodicidade máxima para troca das senhas é 180 (cento e oitenta) dias, não podendo ser repetidas as 3 (três) últimas senhas. Os sistemas devem forçar a troca das senhas dentro desse prazo máximo.
+
+                            <br> &emsp;Todos os acessos devem ser imediatamente bloqueados quando se tornarem desnecessários. Portanto, assim que algum usuário mudar de função, for demitido ou solicitar demissão, a área de RH deverá comunicar imediatamente
+                            tal fato a área de Tecnologia da Informação, a fim de que essa providência seja tomada. A mesma conduta se aplica aos usuários cujo contrato ou prestação de serviços tenha se encerrado, bem como aos usuários de testes e outras
+                            situações similares. Será realizada uma revisão anual dos privilégios de acesso a fim de identificar e remover contas não utilizadas e realinhar os direitos e a função de cada usuário.
+
+                            <br> &emsp;Caso o usuário esqueça sua senha, ele deverá requisitar formalmente a troca à área técnica responsável para cadastrar uma nova.
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">3.2 Testes de Intrusão e Varredura de Vulnerabilidade
+                        </h3>
+                        <p>
+                            <br> &emsp;No mínimo uma vez por ano serão realizados testes de intrusão com o objetivo de avaliar a segurança dos sistemas de computador e de rede, garantindo uma melhor proteção dos ativos de informação. Isso permite que
+                            a QUALIS solidifique uma estratégia eficiente de defesa em caso de um incidente.
+
+                            <br> &emsp;Ainda, periodicamente (mensal ou trimestral), a QUALIS realizará varreduras nas redes internas e externas e, caso vulnerabilidades sejam identificadas serão tratadas e priorizadas de acordo com seu nível de criticidade.
+
+                        </p>
+                    </div>
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">3.3 Criptografia
+                        </h3>
+                        <p>
+                            <br> &emsp;Os controles criptográficos serão usados para assegurar o uso efetivo e adequado da criptografia, com o objetivo de proteger a confidencialidade, integridade/autenticidade e o não repúdio.
+
+                            <br> &emsp;A escolha dos tipos, da qualidade e da força de algoritmos, assim como a definição de que tipo de controle criptográfico é apropriado para cada propósito e processo de negócio, tomará como base, sempre que possível,
+                            o resultado do processo de gerenciamento de riscos de segurança da informação.
+
+                            <br> &emsp;Será confeccionada uma tabela relacionando os controles criptográficos, seus parâmetros e sua aplicação na proteção de informações.
+
+                            <br> &emsp;É proibida a implantação de controles criptográficos não homologados pelo Comitê de Segurança da Informação e Privacidade ou utilizá-los de forma distinta aos procedimentos estabelecidos para tal finalidade.
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">3.4 Rastreabilidade das Informações
+                        </h3>
+                        <p>
+                            <br> &emsp;É obrigatória a gravação de logs ou trilhas de auditoria do ambiente computacional, para todas as plataformas, de forma a permitir e identificar: quem realizou o acesso, quando o acesso foi realizado, o que foi acessado
+                            e como foi acessado. Estas informações devem ser protegidas contra modificações e acessos não autorizados.
+
+                            <br> &emsp;Recursos tecnológicos como criptografia, concentrador de registros (logs) de rede com análise proativa e procedimentos de pronta-resposta a incidentes cibernéticos (com procedimentos aprovados), são adotados e continuamente
+                            geridos por pessoal da Tecnologia da Informação e Segurança da Informação, garantindo a manutenção da segurança cibernética e mantendo os riscos cibernéticos sob controle.
+                        </p>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">4. NORMAS DE SEGURANÇA LÓGICA </h3>
+
+                <div class="container">
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.1. Internet
+                        </h3>
+                        <p>
+                            &emsp;O serviço de Internet é disponibilizado exclusivamente para uso nas atividades profissionais. O acesso às páginas da Internet, por meio dos recursos disponibilizados pela QUALIS, caracteriza um instrumento de trabalho e, assim destina-se e limita-se
+                            à execução das atividades pertinentes à função.
+                            <br> &emsp;A QUALIS reserva-se o direito de examinar e de monitorar o acesso à Internet disponibilizada, em conformidade com os termos da Lei e de utilizar do conteúdo das trilhas de auditoria, sendo proibido aos usuários:
+                        </p>
+                        <ul>
+                            <li>Utilizar os recursos da QUALIS para fazer downloads (mp3, vídeos, programas diversos) de conteúdo que não seja para utilização no trabalho, distribuição de software de qualquer natureza e de dados não legalizados, bem como
+                                a distribuição destes;</li>
+
+                            <li>Acessar informações ilegais ou que possam ser consideradas ofensivas, intimidatórias, ameaçadoras ou similares, sendo que o usuário será responsabilizado pelos sites acessados e pelos arquivos copiados para a rede interna da
+                                Instituição;
+                            </li>
+
+                            <li>Utilizar webmail particular ou mesmo instalar a conta de e-mail particular para utilização no cliente do desktop corporativo durante o horário de expediente (o uso de webmail será permitido fora do horário de expediente, desde
+                                que o colaborador não precise de liberações de acesso adicionais para tal uso);</li>
+
+                            <li>Acessar portais ou páginas com conteúdo de caráter obsceno, sexual, pornográfico, erótico, racista, constrangedor, difamatório, discriminatório ou preconceituoso (sexo, raça, etnia, religião, nacionalidade), ilegal, agressivo
+                                e abusivo ou de qualquer outra natureza, que atente contra a integridade moral e os bons costumes dos indivíduos ou de grupos da sociedade;
+                            </li>
+
+                            <li>Acessar e propagar qualquer tipo de conteúdo malicioso, como vírus, worms, cavalos de tróia ou programas de controle de outros computadores, bem como spam;</li>
+
+                            <li>Acessar a internet através de compartilhamento via dispositivo móvel particular (smartphone, por exemplo);</li>
+
+                            <li>Utilizar a rede para fins comerciais, ilegais ou imorais.</li>
+                        </ul>
+                        <p>&emsp;Caso a área de Tecnologia julgue necessário, poderá efetuar bloqueios de acesso a arquivos, domínios e serviços de Internet que comprometam o uso de banda, a segurança da QUALIS ou o bom andamento dos trabalhos. Com base
+                            em relatórios para análise de segurança dos sites acessados pelos usuários, poderá haver restrição a determinados conteúdos/sites sem aviso prévio.</p>
+
+                        </p>
+                    </div>
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.2. Acesso Remoto
+                        </h3>
+                        <p>
+                            &emsp;Trabalho remoto refere-se a todas as formas de trabalho fora do escritório, incluindo ambientes de trabalho não tradicionais, como aqueles referidos como: “ambientes de telecommuting”, “local de trabalho flexível”, “trabalho remoto” e “trabalho
+                            virtual”.
+
+                            <br> &emsp;O trabalho remoto do usuário deverá ser autorizado e fornecido exclusivamente pela área de Tecnologia da Informação. O usuário deve agir com máxima cautela, a fim de evitar que informações da QUALIS sejam acessíveis
+                            por estranhos ou pessoas não autorizadas.
+
+                            <br> &emsp;Acesso remoto a sistemas, infraestrutura de suporte ao ambiente de tecnologia ou informações da QUALIS só devem ser realizados em locais seguros. A realização de trabalho remoto em áreas onde a segurança cibernética
+                            não possa ser obtida não deve ser realizada.
+
+                            <br> &emsp;Todo acesso remoto a sistemas e ambientes de tecnologia que suportam informações corporativas da QUALIS é precedido, obrigatoriamente, por um processo de autenticação do usuário, a qual deve seguir as regras definidas
+                            pela QUALIS, podendo conter 01 (um) ou mais fatores de autenticação, conforme a criticidade do sistema, ativo de tecnologia e/ou informação a ser acessada.
+
+                            <br> &emsp;Quando o acesso remoto for realizado por prestador de serviços, cabe ao colaborador responsável avaliar a criticidade do acesso e solicitar acompanhamento da área de Tecnologia da Informação quando julgar necessário.
+                            O acesso remoto por entidade externa somente será autorizado com o fornecimento de todos os dados solicitados pela área de Tecnologia da Informação para uma conexão segura. (Ex. IP externo para conexão).
+
+                            <br> &emsp;O acesso remoto deve ser revogado ao término da relação contratual ou a qualquer tempo, devido ao regresso e/ou substituição do usuário (colaborador ou prestador de serviço).
+                        </p>
+                    </div>
+
+
+
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.3. Armazenamento e Manuseio de Informações
+                        </h3>
+                        <p>
+                            &emsp;É obrigação do usuário segmentar e gravar os documentos sempre na pasta da área correspondente, não podendo armazenar documentos da empresa na pasta pessoal (desktop). Possuem backup somente os documentos salvos na rede, sendo que os documentos
+                            salvos no desktop local não entram na política de backup, portanto não tem cópia de segurança.
+
+                            <br> &emsp;Informações particulares podem ser armazenadas em estação de trabalho, porém podem ser excluídas pela área de Tecnologia da Informação a qualquer momento e sem prévio aviso. A empresa não possui qualquer responsabilidade
+                            sobre este tipo de informação.
+
+                            <br> &emsp;Colaboradores que utilizam notebooks corporativos são responsáveis pela segurança das informações armazenadas nestes, bem como pela atualização destas informações nos servidores corporativos.
+
+                            <br> &emsp;No caso de término da relação contratual, é responsabilidade da área de Recursos Humanos informar a área de Tecnologia da Informação o desligamento do colaborador antes de informar ao próprio colaborador. Uma vez
+                            informado, é responsabilidade da área de Tecnologia da Informação salvar todas as informações corporativas do colaborador (ex. documentos em rede) antes de seu desligamento.
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.4 Compartilhamento de informações
+                        </h3>
+                        <p>
+                            &emsp;Estações de trabalho não devem compartilhar informações pela rede, todos os compartilhamentos devem ser feitos através de servidores corporativos.
+
+                            <br> &emsp;Todo compartilhamento deve pertencer a um setor específico e estar sob responsabilidade do Gestor da área.
+
+                            <br> &emsp;O Gestor da área deve informar a área de Tecnologia da Informação qualquer alteração nos direitos de acesso dos compartilhamentos sob sua responsabilidade.
+
+                            <br> &emsp;O Gestor da área deve revisar os direitos de acesso de seus compartilhamentos a cada 12 meses, sob responsabilidade do comitê de segurança da informação.
+
+                            <br> &emsp;Cada colaborador é responsável pelas informações que publica nos compartilhamentos de rede e deve garantir que a informação seja publicada na pasta correta, conforme o propósito de cada informação.
+
+                            <br> &emsp;As informações do compartilhamento público serão periodicamente excluídas pela área de Tecnologia da Informação, sem prévio aviso.
+
+                            <br> &emsp;No compartilhamento público devem ser colocadas apenas informações temporárias e que sejam públicas, ou seja, que podem ser acessadas por todos os colaboradores.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.5 Dispositivos de armazenamento removível
+                        </h3>
+                        <p>
+                            &emsp;O uso de dispositivos de armazenamento removível corporativo deve ser autorizado pelo Gestor da área com justificativa e prazo determinado.
+
+                            <br> &emsp;Dispositivos de armazenamento removível pessoal de colaboradores não podem ser utilizados para fins profissionais.
+
+                            <br> &emsp;A autorização de dispositivos de armazenamento removível deve ser realizada por dispositivo e não por estação de trabalho.
+
+                            <br> &emsp;Não devem ser utilizados dispositivos de armazenamento removível para troca de informações internas na empresa. Para tal deve-se utilizar a rede corporativa.
+
+                            <br> &emsp;Dispositivos de armazenamento removível devem ser transportados de modo seguro, compatível com a criticidade da informação neles contida.
+                        </p>
+                    </div>
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.6 Backup
+                        </h3>
+                        <p>
+                            &emsp;Um dos procedimentos mais básicos da Segurança da Informação é a implantação de uma Política de Backup (cópia de segurança). Uma organização tem que estar preparada para recuperar (restaurar) todos os seus dados de forma íntegra caso um incidente
+                            de perda de dados venha a ocorrer. Assim, estabelecemos as seguintes regras:
+                            <ul>
+                                <li>Todo sistema ou informação relevante para a operação dos negócios da QUALIS deve possuir cópia dos seus dados de produção para que, em eventual incidente de indisponibilidade de dados, seja possível recuperar ou minimizar
+                                    os impactos nas operações da instituição;
+                                </li>
+
+                                <li>Todos os backups devem ser automatizados por sistemas de agendamento para que sejam, preferencialmente, executados fora do horário comercial, períodos de pouco ou nenhum acesso de usuários ou processos aos sistemas de informática;</li>
+
+                                <li>As mídias de backup devem ser acondicionadas em local seco, climatizado, seguro (de preferência em cofres corta-fogo segundo as normas da ABNT) e, preferencialmente, distantes o máximo possível do Datacenter;</li>
+                                </li>
+                                <li>Toda infraestrutura de suporte aos processos de backup e restauração deve possuir controles de segurança para prevenção contra acessos não autorizados, bem como mecanismos que assegurem seu correto funcionamento;</li>
+
+                                <li>O colaborador não deve fazer backup de informações corporativas por conta própria, a responsabilidade pelo backup é da área de Tecnologia da Informação;</li>
+
+                                <li>Cada colaborador é responsável por garantir que suas informações importantes estejam armazenadas no servidor e incluídas no backup corporativo;</li>
+
+                                <li>Em nenhuma hipótese será feito o backup de informações pessoais/particulares de colaboradores ou mesmo de informações não corporativas.</li>
+                            </ul>
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.7 Correio Eletrônico
+                        </h3>
+                        <p>
+                            &emsp;O Correio Eletrônico é uma ferramenta essencial ao dia a dia, permitindo agilidade na comunicação interna e externa. As mensagens e os documentos eletrônicos estão sujeitos às mesmas leis e normas aplicadas a documentos escritos. O uso não controlado
+                            ou inapropriado desta ferramenta pode trazer ameaças reais, tais como responsabilidade criminal, perante autoridades regulatórias, contaminação por vírus, quebra da confidencialidade e Danos a Imagem.
+
+                            <br> &emsp;Assim, como qualquer recurso provido pela QUALIS, o uso dos serviços do correio eletrônico deve ser dedicado às atividades de seu interesse, regido por regras de conduta similares àquelas aplicáveis a outros recursos
+                            de informática. O uso adequado deve ser legal, ético, refletir honestidade e demonstrar moderação no consumo dos recursos compartilhados. O uso inapropriado dos serviços de correio eletrônico, em alguns casos, pode causar interrupção
+                            das atividades da empresa.
+
+                            <br> &emsp;As mensagens enviadas por meio do e-mail corporativo não são consideradas como informação particular. Assim sendo, a QUALIS reserva para si o direito de monitorar e inspecionar o uso do e-mail disponibilizado, em
+                            conformidade com os termos da Lei.
+
+                            <br> &emsp;Poderá ser concedido a um usuário o direito de acessar a caixa postal de outro usuário mediante autorização da pessoa por e-mail, desta forma a Tecnologia liberará este acesso. Este procedimento pode ser realizado
+                            pelo usuário proprietário da caixa postal ou pela área de Tecnologia por meio de autorização por escrito do proprietário da caixa postal ou seu superior.
+
+                            <br> &emsp;Os colaboradores demitidos ou afastados terão a caixa postal bloqueada imediatamente e em período específico a mesma será desativada ou excluída completamente para casos de desligamento.
+
+                            <br> &emsp;&emsp;Não obstante, é expressamente proibido aos colaboradores:
+                            <ul>
+                                <li>Transmitir material que seja considerado ofensivo, discriminatório, calunioso, fraudatório, danoso, ilegal ou que possa violar os padrões de ética e cortesia profissional; </li>
+
+                                <li>Transmitir ou abrir material que contenha pornografia e conteúdo de assédio moral;</li>
+
+                                <li>Retransmitir e-mails atachados com anexos não relacionados ao conteúdo corporativo, os quais podem interromper ou prejudicar o funcionamento dos servidores/equipamentos de outra pessoa ou causar problemas de performance
+                                    no sistema;
+                                </li>
+                                <li>Abrir arquivos atachados de origem duvidosa; </li>
+
+                                <li>Divulgar informações consideradas confidenciais ou de propriedade da QUALIS ou de seus clientes, exceto quando aprovadas formalmente pelo Gestor, reenviar a terceiros comunicados recebidos quando expressamente não permitido.
+                                </li>
+                            </ul>
+                        </p>
+                        <p>&emsp;A QUALIS se reserva o direito de preservar seus equipamentos e recursos computacionais através da recusa do recebimento de mensagens cujos conteúdos não expressam o interesse ou que possam colocar em risco o funcionamento
+                            dos sistemas. As caixas postais do correio eletrônico, incluindo as informações contidas em seus arquivos, são propriedade da QUALIS, reservando-se ao mesmo, portanto, o direito de monitorar e gravar toda a atividade quando
+                            considerar necessário. O uso da caixa postal de correio eletrônico e dos demais recursos de informática indica o consentimento do usuário a essa monitoração e, quando necessário, à divulgação da QUALIS às autoridades competentes
+                            de quaisquer evidências que possam constituir crime, delito ou violação às atividades.</p>
+
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-12 to-animate text-justify">
+                        <h3 style="margin-top: 20px;">4.8 Software de Mensagens Instantâneas
+
+                        </h3>
+                        <p>
+                            &emsp;Somente poderão ser utilizados softwares de mensagens instantâneas devidamente homologados pela Diretoria.
+                            <br> &emsp;Somente poderão ter acesso a contatos externos de mensagens instantâneas os colaboradores formalmente autorizados pelo Gestor da área a qual o colaborador pertence.
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">5. DA RELAÇÃO COM TERCEIROS
+                </h3>
+                <p>
+                    &emsp;Todos os contratos fechados com terceiros deverão ser aderentes às leis, normas e procedimentos definidos por órgãos reguladores e autorreguladores que regem a empresa QUALIS.
+                    <br> &emsp;Dessa forma, todos os contratos com terceiros deverão conter cláusulas referentes à proteção de dados pessoais e segurança da informação, estabelecendo deveres e obrigações envolvendo a temática, e atestando o compromisso
+                    dos terceiros com as legislações pertinentes, bem como cláusula de confidencialidade em relação as informações e dados pessoais compartilhados.
+                    <br> &emsp;Todos os terceiros devem assinar o termo de aceitação desta Política, da Política de Privacidade e Proteção de Dados e do Plano de Resposta a Incidentes de Segurança, submetendo as atividades contratadas no âmbito da relação
+                    com a QUALIS também a essas normativas.
+                </p>
+            </div>
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">6. NOTIFICAÇÕES E INCIDENTES
+                </h3>
+                <p>
+                    &emsp;Todos os colaboradores devem notificar incidentes da Política de Segurança da Informação quando observados.
+
+                    <br> &emsp;As notificações devem ser feitas através do e-mail contato@portalqualis.com.br ou pelo sistema de chamados da QUALIS.
+
+                    <br> &emsp;Os incidentes serão encaminhados para os respectivos responsáveis de segurança lógica e/ou física para análise inicial e levantamento de evidências.
+
+                    <br> &emsp;Os incidentes cuja relevância seja identificada devem ser encaminhados para o Comitê de Segurança da Informação e/ou Comitê de Incidentes.
+
+                </p>
+            </div>
+
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">7. MEDIDAS DISCIPLINARES
+                </h3>
+                <p>
+
+                    &emsp;As medidas disciplinares a serem aplicadas em caso de responsabilidade por um incidente de segurança e proteção de dados serão discutidas e deliberadas pelo Comitê de Segurança da Informação e Privacidade. A aplicação de medidas disciplinares será
+                    de responsabilidade do Gestor/superior imediato do colaborador, juntamente à dois membros do Comitê de Segurança da Informação e Privacidade.
+
+                    <br> &emsp;Em caso de se apurar a responsabilidade do colaborador na ocorrência de um incidente de segurança e violação de dados pessoais poderão ser aplicadas as seguintes medidas disciplinares:
+                    <ul>
+                        <li>Reforço de conscientização no tema de segurança e proteção de dados;</li>
+                        <li>Advertência não registrada (verbal);</li>
+                        <li>Advertência registrada ou escrita;</li>
+                        <li>Suspensão de direito de acesso ou recurso;</li>
+                        <li>Desligamento com ou sem justa causa;</li>
+                        <li>Processos cíveis e\ou criminais;</li>
+                        <li>Outras medidas disciplinares definidas pelo RH em conjunto com o Jurídico.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">8. AUDITORIAS
+                </h3>
+                <p>
+
+                    &emsp;Serão realizadas auditorias periódicas para verificação do grau de cumprimento desta Política. São consideradas razões legítimas, porém não limitadas:
+
+                    <ul>
+                        <li>Identificar e diagnosticar problemas de hardware e software;</li>
+                        <li>Prevenir o uso incorreto do sistema;</li>
+                        <li>Investigar conduta imprópria ou ilegal, atividade antiética ou inadequada;</li>
+                        <li>Assegurar conformidade com os direitos de propriedade, licença e obrigações contratuais; e</li>
+                        <li>Proteger os interesses empresariais da QUALIS.</li>
+                    </ul>
+
+
+                </p>
+            </div>
+            <div class="col-md-12 to-animate text-justify">
+                <h3 style="margin-top: 20px;">9. TREINAMENTOS
+                </h3>
+                <p>
+
+                    &emsp;Os destinatários desta política se comprometem a participar dos treinamentos, workshops e capacitações propostos pelo Comitê de Segurança da Informação e Privacidade para a ampliação da cultura de proteção de dados pessoais na empresa. Todos os
+                    colaboradores passarão por avaliações específicas e pontuais, que visem identificar falhas entre conhecimento e procedimentos operacionais praticados pelas áreas de negócio, que possam afetar as práticas de Segurança da Informação.
+
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>   	<footer id="footer" role="contentinfo">
+		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-xs-12"></div>
+				
+					<div class="col-md-3 col-xs-12 text-center">
+						<a href="#ZgotmplZ" target="_blank">
+							<p style="font-size: 18px;color: black;"><img src="https://qualis-solucoes-em-infectologia.github.io/images/Rodape/fone.png"  style="height: 30px; margin-right: 10px;" />(51) 3028-4992</p>
+						</a>
+					</div>
+				
+					<div class="col-md-3 col-xs-12 text-center">
+						<a href="mailto:contato@portalqualis.com.br" target="_blank">
+							<p style="font-size: 18px;color: black;"><img src="https://qualis-solucoes-em-infectologia.github.io/images/Rodape/mail.png"  style="height: 30px; margin-right: 10px;" />contato@portalqualis.com.br</p>
+						</a>
+					</div>
+				
+					<div class="col-md-4 col-xs-12 text-center">
+						<a href="" target="_blank">
+							<p style="font-size: 18px;color: black;"><img src="https://qualis-solucoes-em-infectologia.github.io/images/Rodape/endereco.png"  style="height: 30px; margin-right: 10px;" />Av. Osvaldo Aranha, 1022 - sala 1101 Bom Fim, Porto Alegre - RS, 90035-191</p>
+						</a>
+					</div>
+				
+				<div class="col-md-1 col-xs-12"></div>
+				<div class="col-md-12 text-center" style="margin-top: 20px;"></div>
+				<div class="col-md-3  col-xs-12 text-center"></div>
+				
+					<div class="col-md-2 col-xs-4  text-center">
+						<a href="https://www.facebook.com/qualisinfectologia" target="_blank">
+							<img src="https://qualis-solucoes-em-infectologia.github.io/images/Rodape/facebook.png"  style="max-width: 50%;"/>
+						</a>
+					</div>
+				
+					<div class="col-md-2 col-xs-4  text-center">
+						<a href="https://www.instagram.com/qualisinfectologia/" target="_blank">
+							<img src="https://qualis-solucoes-em-infectologia.github.io/images/Rodape/instagram.png"  style="max-width: 50%;"/>
+						</a>
+					</div>
+				
+					<div class="col-md-2 col-xs-4  text-center">
+						<a href="https://www.linkedin.com/company/qualisinfectologia" target="_blank">
+							<img src="https://qualis-solucoes-em-infectologia.github.io/images/Rodape/linkedin.png"  style="max-width: 50%;"/>
+						</a>
+					</div>
+				
+				<div class="col-md-12 text-center col-xs-12" style="margin-top: 40px;"></div>
+
+				<div class="col-md-12 col-xs-12 text-center" >
+					<div style="margin-bottom: 20px; ">
+					<img src="https://qualis-solucoes-em-infectologia.github.io/images/Rodape/qualis_rodape.png"  style="max-width: 250px;margin-top: 20px;"/>
+				</div>
+					<p>© Copyright 2021 Qualis Infectologia. Todos os direitos reservados.</p>
+				</div>
+			</div>
+			
+		</div>
+		<img src='/images/Home/isa.png' id="myBtn" style="max-width: 50px;position: fixed;bottom: 111px;float: right;right: 26px;z-index:1000;">
+		<div id="myModal" class="modal">
+
+			
+			<div class="modal-content">
+			  <span class="close">&times;</span>
+			  <iframe src="https://chatbot.isarobot.ai/" width="100%" height="95%" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+			</div>
+		  
+		  </div>
+	</footer>
+<style>
+	  
+.modal {
+	display: none;  
+	position: fixed;  
+	z-index: 1000000;  
+	left: 0;
+	top: 0;
+	width: 100%;  
+	height: 100%;  
+	overflow: auto;  
+	background-color: rgb(0,0,0);  
+	background-color: rgba(0,0,0,0.4);  
+  }
+  
+   
+  .modal-content {
+    background-color: #fefefe;
+    margin: 0% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 32%;
+    top: 7%;
+    right: 0;
+    align-content: baseline;
+    position: absolute;
+	height: 447px;
+}
+  
+  @media only screen and (max-width: 800px) {
+	.modal {
+		display: none;  
+		position: fixed;  
+		z-index: 1;  
+		left: 0;
+		top: 0;
+		width: 100%;  
+		height: 100%;  
+		overflow: auto;  
+		background-color: rgb(0,0,0);  
+		background-color: rgba(0,0,0,0.4);  
+	  }
+	  
+	   
+	  .modal-content {
+		background-color: #fefefe;
+		margin: 15% auto;  
+		padding: 20px;
+		border: 1px solid #888;
+		width: 80%;  
+	  }
+}
+   
+  .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  } 
+</style>
+
+<script>
+	var modal = document.getElementById("myModal");
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+} 
+</script>  	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/jquery.min.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/jquery.easing.1.3.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/bootstrap.min.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/jquery.waypoints.min.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/jquery.stellar.min.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/jquery.countTo.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/magnific-popup-options.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/leaflet.js"></script>
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/leaflet-map.js"></script>
+	
+	<script src="https://qualis-solucoes-em-infectologia.github.io/js/main.js"></script>
+	<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/738ee347-d6f2-416c-b7b6-e07a0ddb98f3-loader.js" ></script>
+
+</body>
+
+</html>
