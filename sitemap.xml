@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://qualis-solucoes-em-infectologia.github.io/politica_de_cookies/</loc>
+    <lastmod>2021-07-01T14:59:08-03:00</lastmod>
+  </url><url>
     <loc>https://qualis-solucoes-em-infectologia.github.io/</loc>
-    <lastmod>2021-06-19T14:59:08-03:00</lastmod>
+    <lastmod>2021-07-01T14:59:08-03:00</lastmod>
   </url><url>
     <loc>https://qualis-solucoes-em-infectologia.github.io/videos/</loc>
     <lastmod>2021-06-19T14:59:08-03:00</lastmod>
@@ -33,6 +36,8 @@
     <priority>0</priority>
   </url><url>
     <loc>https://qualis-solucoes-em-infectologia.github.io/contato/contact/</loc>
+  </url><url>
+    <loc>https://qualis-solucoes-em-infectologia.github.io/politica_de_cookies/politica_de_privacidade/</loc>
   </url><url>
     <loc>https://qualis-solucoes-em-infectologia.github.io/politica_de_privacidade/politica_de_privacidade/</loc>
   </url><url>
