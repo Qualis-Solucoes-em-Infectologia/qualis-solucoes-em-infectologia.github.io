@@ -324,10 +324,10 @@
 	<section id="fh5co-robo-isa" class="sesc-robo-isa" data-section="robo-isa">
 	<div class="">
 		<div class="row">
-			<div class="col-md-7  robo-row">
+			<div class="col-md-7 robo-row-img">
 				<img class="robo-img" src="https://qualis-solucoes-em-infectologia.github.io/images/Home/pc-roboisa.png" />
 			</div>
-			<div class="col-md-4 robo-row">
+			<div class="col-md-4 robo-row-desc">
 				<div>
 					<h2 class="robo-title">INFECTION SURVEILLANCE ASSISTANT</h2>
 					<p class="robo-description">Robô de inteligência artificial que simula o que os profissionais do
@@ -355,11 +355,7 @@
 		height: 28rem;
 	}
 
-	.robo-row {
-		display: flex;
-		align-content: center;
-		align-items: center;
-	}
+
 
 	.robo-button {
 		background-color: #20bafb;
@@ -399,13 +395,38 @@
 		line-height: normal;
 	}
 
+	.robo-row-img,
+	.robo-row-desc {
+		display: flex;
+		align-content: center;
+		align-items: center;
+	}
+
+	.robo-row-desc {
+		padding: 0;
+	}
+
+	.robo-row-img {
+		padding-right: 0;
+	}
+
 	@media only screen and (max-width: 800px) {
 
 		#fh5co-robo-isa .fh5co-robo-isa {
 			padding-right: 30px;
 			height: auto;
 		}
+
+		.robo-row-desc {
+			padding: 40px;
+		}
+
+		.robo-row-img {
+			padding-right: 90px;
+		}
 	}
+
+
 
 	#fh5co-robo-isa .section-heading h2 {
 		color: #fff;
