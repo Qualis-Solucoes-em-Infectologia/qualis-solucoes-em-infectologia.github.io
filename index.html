@@ -613,77 +613,113 @@
 	
 
 	
-		<section id="fh5co-counters"  style="background-image: url(https://qualis-solucoes-em-infectologia.github.io/qualis_num_fundo.jpg);" data-stellar-background-ratio="0.5">
-		<div class="fh5co-overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center to-animate">
-					<h2>A Qualis em números</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-1 col-sm-12 col-xs-12"></div>
-			
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="fh5co-counter to-animate">
-						<img  src='https://qualis-solucoes-em-infectologia.github.io/images/Home/consul_realiz.png' style="min-height: 63px;max-height: 63px; ">
-						
-						<h2 style="margin: 0;font-size: 48px;color:white;float: left;top: 72px;position: inherit;left: 17px;">+</h2>
-						<span style="margin-top: -19px;padding: 0;" class="fh5co-counter-number js-counter" data-from="0" data-to="364899" data-speed="2000" data-refresh-interval="20"> 364899</span>
-						
-						<span class="fh5co-counter-label">Consultas Realizadas</span>
-						
-					</div>
-				</div>
-			
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="fh5co-counter to-animate">
-						<img  src='https://qualis-solucoes-em-infectologia.github.io/images/Home/pacientes.png' style="min-height: 63px;max-height: 63px; ">
-						
-						<h2 style="margin: 0;font-size: 48px;color:white;float: left;top: 72px;position: inherit;left: 17px;">+</h2>
-						<span style="margin-top: -19px;padding: 0;" class="fh5co-counter-number js-counter" data-from="0" data-to="137648" data-speed="2000" data-refresh-interval="20"> 137648</span>
-						
-						<span class="fh5co-counter-label">Pacientes Avaliados</span>
-						
-					</div>
-				</div>
-			
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="fh5co-counter to-animate">
-						<img  src='https://qualis-solucoes-em-infectologia.github.io/images/Home/tempo_resposta.png' style="min-height: 63px;max-height: 63px; ">
-						
-						<span class="fh5co-counter-number " style="margin-top: -19px;padding: 0;" >4:36min</span>
-
-						
-						<span class="fh5co-counter-label">Tempo de Resposta</span>
-						
-					</div>
-				</div>
-			
+	<script>
+	window.addEventListener("load", function () {
+		var el = parseInt(document.getElementsByClassName("number_format")[0].attributes['data-to'].value);
+		var el1 = parseInt(document.getElementsByClassName("number_format")[1].attributes['data-to'].value);
+		var el2 = parseInt(document.getElementsByClassName("number_format")[2].attributes['data-to'].value);
+		setTimeout(function () {
+			document.getElementsByClassName("number_format")[0].innerHTML = el.toLocaleString('pt-BR')
+			document.getElementsByClassName("number_format")[1].innerHTML = el1.toLocaleString('pt-BR')
+			document.getElementsByClassName("number_format")[2].innerHTML = el2.toLocaleString('pt-BR')
+		}, 2000);
+	});
+</script>
+<section id="fh5co-counters" style="background-image: url(https://qualis-solucoes-em-infectologia.github.io/qualis_num_fundo.jpg);"
+	data-stellar-background-ratio="0.5">
+	<div class="fh5co-overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-heading text-center to-animate">
+				<h2>A Qualis em números</h2>
 			</div>
 		</div>
-	</section>
-	<style>
+		<div class="row">
+			
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="fh5co-counter to-animate">
+					<img src='https://qualis-solucoes-em-infectologia.github.io/images/Home/consul_realiz.png' style="min-height: 63px;max-height: 63px; ">
+					
+					<h2
+						style="margin: 0;font-size: 48px;color:white;float: left;top: 72px;position: inherit;left: 7px;">
+						+</h2>
+					<span style="margin-top: -19px;padding: 0;" class="fh5co-counter-number js-counter number_format"
+						data-from="0" data-to="408387" data-speed="1000"
+						data-refresh-interval="20"> 408387</span>
+					
+					<span class="fh5co-counter-label">Consultas Realizadas</span>
 
-		
-		#fh5co-counters .fh5co-overlay {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			z-index: 2;
-			background: #6B6B6B;
-			clip-path: polygon(0% 6%, 100% 1%, 101% 95%, 0% 100%);
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="fh5co-counter to-animate">
+					<img src='https://qualis-solucoes-em-infectologia.github.io/images/Home/pacientes.png' style="min-height: 63px;max-height: 63px; ">
+					
+					<h2
+						style="margin: 0;font-size: 48px;color:white;float: left;top: 72px;position: inherit;left: 7px;">
+						+</h2>
+					<span style="margin-top: -19px;padding: 0;" class="fh5co-counter-number js-counter number_format"
+						data-from="0" data-to="152312" data-speed="1000"
+						data-refresh-interval="20"> 152312</span>
+					
+					<span class="fh5co-counter-label">Pacientes Avaliados</span>
+
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="fh5co-counter to-animate">
+					<img src='https://qualis-solucoes-em-infectologia.github.io/images/Home/exames.png' style="min-height: 63px;max-height: 63px; ">
+					
+					<h2
+						style="margin: 0;font-size: 48px;color:white;float: left;top: 72px;position: inherit;left: 7px;">
+						+</h2>
+					<span style="margin-top: -19px;padding: 0;" class="fh5co-counter-number js-counter number_format"
+						data-from="0" data-to="54484" data-speed="1000"
+						data-refresh-interval="20"> 54484</span>
+					
+					<span class="fh5co-counter-label">Exames Bacteriológicos</span>
+
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="fh5co-counter to-animate">
+					<img src='https://qualis-solucoes-em-infectologia.github.io/images/Home/tempo_resposta.png' style="min-height: 63px;max-height: 63px; ">
+					
+					<span class="fh5co-counter-number " style="margin-top: -19px;padding: 0;">4:34min</span>
+
+					
+					<span class="fh5co-counter-label">Tempo de Resposta</span>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<style>
+	#fh5co-counters .fh5co-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 2;
+		background: #6B6B6B;
+		clip-path: polygon(0% 6%, 100% 1%, 101% 95%, 0% 100%);
+	}
+
+	@media only screen and (max-width: 1200px) {
+		#fh5co-counters {
+			background-position: center;
+			clip-path: polygon(0% 7%, 100% 3%, 101% 100%, -1% 100%);
+			margin-top: -73px;
 		}
-		@media only screen and (max-width: 1200px) {
-			#fh5co-counters{
-				background-position: center;
-				clip-path: polygon(0% 7%, 100% 3%, 101% 100%, -1% 100%);
-				margin-top: -73px;
-			}
-		  }
-	</style>
+	}
+</style>
 	
 
 	
