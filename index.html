@@ -618,7 +618,7 @@
 		var el = parseInt(document.getElementsByClassName("number_format")[0].attributes['data-to'].value);
 		var el1 = parseInt(document.getElementsByClassName("number_format")[1].attributes['data-to'].value);
 		var el2 = parseInt(document.getElementsByClassName("number_format")[2].attributes['data-to'].value);
-		setTimeout(function () {
+		setInterval(function () {
 			document.getElementsByClassName("number_format")[0].innerHTML = el.toLocaleString('pt-BR')
 			document.getElementsByClassName("number_format")[1].innerHTML = el1.toLocaleString('pt-BR')
 			document.getElementsByClassName("number_format")[2].innerHTML = el2.toLocaleString('pt-BR')
