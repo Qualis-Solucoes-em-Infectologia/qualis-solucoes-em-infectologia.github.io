@@ -273,8 +273,33 @@
 				</p>
 			</div>
 			<div class="col-md-12 to-animate">
-				<iframe src="https://form.jotform.com/211867985934676" style="border:none;width: 100%; height: 900px;"
-					title="description"></iframe>
+				<div class="row">
+					<form class="col-12 row container">
+						<div class="form-group col-12 col-md-6">
+							<label for="email">Seu Email </label>
+							<input type="text" class="form-control" id="email" aria-describedby="Digite o seu email"
+								placeholder="Digite o seu email">
+						</div>
+						<div class="form-group col-12 col-md-6">
+							<label for="titulo">Seu nome</label>
+							<input type="text" class="form-control" id="nome"
+								aria-describedby="Digite o seu nome completo" placeholder="Digite o seu nome completo">
+						</div>
+						<div class="form-group col-12 col-md-6">
+							<label for="corpo">Seu Telefone</label>
+							<input type="text" class="form-control" id="telefone"
+								aria-describedby="Digite o seu telefone (xx)9xxxx-xxxx"
+								placeholder="Digite o seu telefone (xx)9xxxx-xxxx" maxlength="15">
+						</div>
+						<div class="form-group col-12 col-md-6">
+							<label for="inp">Anexe seu currículo</label>
+							<input type="file" class="form-control" id="fileinput" accept=".doc, .docx,.ppt,.pdf">
+						</div>
+						<div class="form-group col-12 col-md-12 text-center">
+							<a id="enviar" class="btn btn-primary" style="width: 200px;">Enviar</a>
+						</div>
+					</form>
+				</div>
 
 
 			</div>
@@ -282,6 +307,58 @@
 	</div>
 	
 </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.11.2/jquery.mask.min.js"
+	integrity="sha512-Y/GIYsd+LaQm6bGysIClyez2HGCIN1yrs94wUrHoRAD5RSURkqqVQEU6mM51O90hqS80ABFTGtiDpSXd2O05nw=="
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+	$('#email').mask("A", {
+		translation: {
+			"A": { pattern: /[\w@\-.+]/, recursive: true }
+		}
+	});
+
+	$('#telefone').mask('(00) 00000-0000');
+	let file = []
+	$('#fileinput').on('change', function () {
+		file = this.files[0];
+	});
+
+	$('#enviar').on('click', function (e) {
+		e.preventDefault()
+		let email = $('#email').val()
+		let nome = $('#nome').val()
+		let telefone = $('#telefone').val()
+		if (file.size) {
+			var reader = new FileReader();
+			reader.readAsBinaryString(file);
+			reader.onload = function () {
+				var dataUri = "data:" + file.type + ";base64," + btoa(reader.result);
+				Email.send({
+					SecureToken: "eaa46de1-3627-4ba1-80c9-cbed2c19b2cd",
+					To: "contato@portalqualis.com.br",
+					From: "contato.qualisinfectologia@gmail.com",
+					Subject: "SITE - Trabalhe Conosco",
+					Body: "<p><b>Nome: </b>" + nome + "<br/> <b>Email: </b>" + email + "<br/><b>Telefone: </b>" + telefone + "</p>",
+					Attachments: [
+						{
+							name: file.name,
+							data: dataUri
+						}]
+				}).then(
+					message => alert(message)
+				);
+			};
+			reader.onerror = function () {
+				console.log('Erro!');
+			};
+		} else {
+			alert('Anexe seu curriculo!')
+		}
+	})
+</script>
     
 
     
@@ -467,8 +544,6 @@
         cursor: pointer;
     }
 </style>
-
-
     
 
     
