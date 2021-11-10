@@ -274,6 +274,7 @@
 			</div>
 			<div class="col-md-12 to-animate">
 				<div class="row">
+					<div class="col-md-12 to-animate" id="formMessage"></div>
 					<form class="col-12 row container">
 						<div class="form-group col-12 col-md-6">
 							<label for="email">Seu Email </label>
@@ -331,34 +332,58 @@
 		let email = $('#email').val()
 		let nome = $('#nome').val()
 		let telefone = $('#telefone').val()
-		if (file.size) {
-			var reader = new FileReader();
-			reader.readAsBinaryString(file);
-			reader.onload = function () {
-				var dataUri = "data:" + file.type + ";base64," + btoa(reader.result);
-				Email.send({
-					SecureToken: "eaa46de1-3627-4ba1-80c9-cbed2c19b2cd",
-					To: "contato@portalqualis.com.br",
-					From: "contato.qualisinfectologia@gmail.com",
-					Subject: "SITE - Trabalhe Conosco",
-					Body: "<p><b>Nome: </b>" + nome + "<br/> <b>Email: </b>" + email + "<br/><b>Telefone: </b>" + telefone + "</p>",
-					Attachments: [
-						{
-							name: file.name,
-							data: dataUri
-						}]
-				}).then(
-					message => alert(message)
-				);
-			};
-			reader.onerror = function () {
-				console.log('Erro!');
-			};
+		if (email.length > 10 && nome.length > 10 & telefone.length > 12) {
+			if (file.size) {
+				var reader = new FileReader();
+				reader.readAsBinaryString(file);
+				reader.onload = function () {
+					var dataUri = "data:" + file.type + ";base64," + btoa(reader.result);
+					Email.send({
+						SecureToken: "eaa46de1-3627-4ba1-80c9-cbed2c19b2cd",
+						To: "contato@portalqualis.com.br",
+						From: "contato.qualisinfectologia@gmail.com",
+						Subject: "SITE - Trabalhe Conosco",
+						Body: "<p><b>Nome: </b>" + nome + "<br/> <b>Email: </b>" + email + "<br/><b>Telefone: </b>" + telefone + "</p>",
+						Attachments: [
+							{
+								name: file.name,
+								data: dataUri
+							}]
+					}).then((message) => {
+						$('#formMessage').text('Mensagem enviada! Aguarde nosso retorno')
+						$('#formMessage').removeClass("bg_error").addClass("bg_sucess");
+					})
+				};
+				reader.onerror = function () {
+					$('#formMessage').text('Ops.. Houve algum problema interno com nosso formulário! Estaremos trabalhando nisso')
+					$('#formMessage').removeClass("bg_sucess").addClass("bg_error");
+				};
+			} else {
+				$('#formMessage').text('Anexe seu curriculo!')
+				$('#formMessage').removeClass("bg_sucess").addClass("bg_error");
+			}
 		} else {
-			alert('Anexe seu curriculo!')
+			$('#formMessage').text('Confira todos os campos!')
+			$('#formMessage').removeClass("bg_sucess").addClass("bg_error");
 		}
 	})
 </script>
+<style>
+	#formMessage {
+		background-color: black;
+		color: white;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.bg_error {
+		background-color: red;
+	}
+
+	.bg_sucess {
+		background-color: #3f6f60;
+	}
+</style>
     
 
     
