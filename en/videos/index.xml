@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videos on Qualis en</title>
+    <link>https://qualis-solucoes-em-infectologia.github.io/en/videos/</link>
+    <description>Recent content in Videos on Qualis en</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Sat, 19 Jun 2021 14:59:08 -0300</lastBuildDate><atom:link href="https://qualis-solucoes-em-infectologia.github.io/en/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://qualis-solucoes-em-infectologia.github.io/en/videos/videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qualis-solucoes-em-infectologia.github.io/en/videos/videos/</guid>
+      <description>sfssd</description>
+    </item>
+    
+  </channel>
+</rss>
