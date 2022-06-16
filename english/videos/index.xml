@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Videos on Meu blog</title>
+    <title>Videos on Qualis Infectologia</title>
     <link>https://qualis-solucoes-em-infectologia.github.io/english/videos/</link>
-    <description>Recent content in Videos on Meu blog</description>
+    <description>Recent content in Videos on Qualis Infectologia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sat, 19 Jun 2021 14:59:08 -0300</lastBuildDate><atom:link href="https://qualis-solucoes-em-infectologia.github.io/english/videos/index.xml" rel="self" type="application/rss+xml" />
