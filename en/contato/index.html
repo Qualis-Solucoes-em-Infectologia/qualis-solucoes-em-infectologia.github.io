@@ -92,6 +92,19 @@
 <script src="https://qualis-solucoes-em-infectologia.github.io/js/modernizr-2.6.2.min.js"></script>
 
 
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-THNR42Z");
+</script>
+
 
     </head>
     <body>
@@ -1919,7 +1932,7 @@
   <div class="container">
     <div class="row" style="margin-top: 20px">
       <div class="col-md-4 col-xs-12 text-left">
-        <h3 class=" locale__info-title">Porto Alegre</h3>
+        <h3 class="locale__info-title">Porto Alegre</h3>
         
         <p class="locale__info-text">
           <img
@@ -1947,7 +1960,7 @@
         
       </div>
       <div class="col-md-4 col-xs-12 text-left">
-        <h3 class=" locale__info-title">São Paulo</h3>
+        <h3 class="locale__info-title">São Paulo</h3>
         
         <p class="locale__info-text">
           <img
@@ -2100,6 +2113,14 @@
       >
     </div>
   </div>
+  <noscript
+    ><iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-THNR42Z"
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden"
+    ></iframe
+  ></noscript>
 </footer>
 <style>
    
@@ -2204,7 +2225,7 @@
     justify-content: center;
     font-weight: bolder;
   }
-  .locale__info-text{
+  .locale__info-text {
     font-size: 14px;
     margin-bottom: 5px;
   }
@@ -2235,44 +2256,49 @@
 
 
 <script src="//receiver.posclick.dinamize.com/forms/js/330774_3207.js"></script>
-
-
+<script src="//receiver.posclick.dinamize.com/forms/js/330774_3594.js"></script>
 
 <script>
-	var modal = document.getElementById("myModal");
+  var modal = document.getElementById("myModal");
 
-	
-	var btn = document.getElementById("myBtn");
+  
+  var btn = document.getElementById("myBtn");
 
-	
-	var span = document.getElementsByClassName("close")[0];
+  
+  var span = document.getElementsByClassName("close")[0];
 
-	
-	btn.onclick = function () {
-		modal.style.display = "block";
-	}
+  
+  btn.onclick = function () {
+    modal.style.display = "block";
+  };
 
-	
-	span.onclick = function () {
-		modal.style.display = "none";
-	}
+  
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
 
-	
-	window.onclick = function (event) {
-		if (event.target == modal) {
-			modal.style.display = "none";
-		}
-	}
+  
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
 </script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-210994308-1"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-210994308-1"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'UA-210994308-1');
+  gtag("config", "UA-210994308-1");
 </script>
+
     
     </body>
     
