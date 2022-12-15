@@ -1,0 +1,35 @@
+on:
+  push:
+    branches: [dev-aws]
+  pull_request:
+    branches: [dev-aws]
+
+name: ECR build and push
+jobs:
+  ## Deploy to S3
+  deploy:
+    name: Deploy S3
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: sa-east-1
+    - name: Set up Ruby
+      uses: actions/jekyll-build-pages@v1
+      with:
+        bundler-cache: true
+    - name: "Build Site"
+      run: bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+    - name: "Deploy to AWS S3"
+      run: aws s3 sync ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} --acl public-read --delete --cache-control max-age=604800
+    - name: "Create AWS Cloudfront Invalidation"
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
