@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Qualis Infectologia</title>
-    <link>https://qualis-solucoes-em-infectologia.github.io/tags/</link>
+    <link>https://qualisinfectologia.com.br/tags/</link>
     <description>Recent content in Tags on Qualis Infectologia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-BR</language><atom:link href="https://qualis-solucoes-em-infectologia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-BR</language><atom:link href="https://qualisinfectologia.com.br/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

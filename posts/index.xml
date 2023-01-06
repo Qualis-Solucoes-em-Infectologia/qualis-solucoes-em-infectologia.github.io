@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Todos Posts - Qualis Soluções em Infectologia</title>
-        <link>https://qualis-solucoes-em-infectologia.github.io/posts/</link>
+        <link>https://qualisinfectologia.com.br/posts/</link>
         <description>Todos Posts | Qualis Soluções em Infectologia</description>
         <generator>Hugo -- gohugo.io</generator><language>pt</language><managingEditor>contato@portalqualis.com.br (Qualis Infectologia Ltda.)</managingEditor>
-            <webMaster>contato@portalqualis.com.br (Qualis Infectologia Ltda.)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 01 Sep 2020 16:30:05 &#43;0800</lastBuildDate><atom:link href="https://qualis-solucoes-em-infectologia.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>contato@portalqualis.com.br (Qualis Infectologia Ltda.)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 01 Sep 2020 16:30:05 &#43;0800</lastBuildDate><atom:link href="https://qualisinfectologia.com.br/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Inovação</title>
-    <link>https://qualis-solucoes-em-infectologia.github.io/02/</link>
+    <link>https://qualisinfectologia.com.br/02/</link>
     <pubDate>Tue, 01 Sep 2020 16:30:05 &#43;0800</pubDate>
     <author>Autor</author>
-    <guid>https://qualis-solucoes-em-infectologia.github.io/02/</guid>
+    <guid>https://qualisinfectologia.com.br/02/</guid>
     <description><![CDATA[<div class="details admonition tip open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-lightbulb fa-fw"></i>Serviço: Consultoria Ambientes Seguros<i class="details-icon fas fa-angle-right fa-fw"></i>
@@ -23,10 +23,10 @@
 <p>Através da análise de indicadores de adesão as boas práticas e medidas de segurança é emitido um certificado, selo que comprova a segurança do ambiente auditado.</p>]]></description>
 </item><item>
     <title>Portfólio</title>
-    <link>https://qualis-solucoes-em-infectologia.github.io/01/</link>
+    <link>https://qualisinfectologia.com.br/01/</link>
     <pubDate>Tue, 01 Sep 2020 16:30:05 &#43;0800</pubDate>
     <author>Autor</author>
-    <guid>https://qualis-solucoes-em-infectologia.github.io/01/</guid>
+    <guid>https://qualisinfectologia.com.br/01/</guid>
     <description><![CDATA[1 Vigilância epidemiológica de infecções e auditorias Setenta por cento das infecções hospitalares podem ser prevenidas através da implantação de pacotes de prevenção (bundles).
 Com auditorias presenciais os profissionais da Qualis estabelecem em conjunto com os profissionais do controle de infecção das instituições as bases e o planejamento para a implantação de uma política de prevenção.
 Este processo de melhoria é acompanhando semanalmente pelos profissionais da Qualis e os indicadores de processo e de resultado são analisados mensalmente.
