@@ -4,16 +4,19 @@ on:
   pull_request:
     branches: [dev-aws]
 
-name: ECR build and push
+name: Docker Build And Push
 jobs:
-  ## Deploy to S3
   deploy:
-    name: Deploy S3
+    name: Build Docker Image
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+
+    - name: Set release version tag
+      id: release-version
+      run: echo ::set-output name=tag::${GITHUB_REF/refs\/tags\//}
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
@@ -21,6 +24,7 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: sa-east-1
+
     - name: Set up Ruby
       uses: actions/jekyll-build-pages@v1
       with:
@@ -29,8 +33,22 @@ jobs:
     #   run: bundle exec jekyll build
       env:
         JEKYLL_ENV: production
-    - name: "Test"
-      run: ls -lah && ls -lah _site
+
+
+    - name: Login to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Tag and push image
+      id: tag-image
+      env:
+        REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        REPOSITORY: qualis-site
+        IMAGE_TAG: prod-${{ github.sha }}-${{ github.run_number }}
+      run: |
+        docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
+        docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
+        echo "::set-output name=image::$REGISTRY/$REPOSITORY:$IMAGE_TAG"
 
 
 #     - name: "Deploy to AWS S3"
