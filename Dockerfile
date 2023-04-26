@@ -1,9 +1,11 @@
 FROM jekyll/builder:3.8 as builder
 
+WORKDIR /srv/jekyll
 COPY . .
-ENV JEKYLL_ENV=production
-ENV JEKYLL_GID=1000
-ENV JEKYLL_UID=1000
+ENV JEKYLL_ENV=production \
+    JEKYLL_GID=1000 \
+    JEKYLL_UID=1000
+
 #ENV JEKYLL_ROOTLESS=1
 RUN jekyll build 
 
