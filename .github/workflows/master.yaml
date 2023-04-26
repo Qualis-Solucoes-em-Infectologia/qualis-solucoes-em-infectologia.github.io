@@ -25,14 +25,14 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: sa-east-1
 
-    - name: Set up Ruby
-      uses: actions/jekyll-build-pages@v1
-      with:
-        bundler-cache: true
-    # - name: "Build Site"
-    #   run: bundle exec jekyll build
-      env:
-        JEKYLL_ENV: production
+    # - name: Set up Ruby
+    #   uses: actions/jekyll-build-pages@v1
+    #   with:
+    #     bundler-cache: true
+    # # - name: "Build Site"
+    # #   run: bundle exec jekyll build
+    #   env:
+    #     JEKYLL_ENV: production
 
 
     - name: Login to Amazon ECR
