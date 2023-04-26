@@ -2,6 +2,8 @@ FROM jekyll/builder:3.8 as builder
 
 COPY . .
 ENV JEKYLL_ENV=production
+ENV JEKYLL_GID=1000
+ENV JEKYLL_UID=1000
 #ENV JEKYLL_ROOTLESS=1
 RUN jekyll build 
 
