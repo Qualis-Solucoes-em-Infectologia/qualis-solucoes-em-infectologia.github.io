@@ -1,3 +1,5 @@
+# docker-compose build
+# ocker-compose up
 version: "3"
 services:
   app:
