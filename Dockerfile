@@ -1,5 +1,7 @@
 FROM jekyll/builder:3.8 AS builder
 
+RUN id -u jekyll || (groupadd -r jekyll && useradd -r -g jekyll jekyll)
+
 RUN mkdir /app && chown -R jekyll:jekyll /app
 
 WORKDIR /app
