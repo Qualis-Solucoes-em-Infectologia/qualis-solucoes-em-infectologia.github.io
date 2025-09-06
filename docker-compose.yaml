@@ -9,4 +9,4 @@ services:
     container_name: "qualis-hugo"
     restart: always
     ports:
-      - "80:80"
+      - "8002:80"
