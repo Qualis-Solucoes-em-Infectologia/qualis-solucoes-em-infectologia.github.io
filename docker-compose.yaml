@@ -8,5 +8,7 @@ services:
     image: "qualis-hugo"
     container_name: "qualis-hugo"
     restart: always
+    environment:
+      INSTAGRAM_REFRESH_SECONDS: 21600
     ports:
       - "81:80"

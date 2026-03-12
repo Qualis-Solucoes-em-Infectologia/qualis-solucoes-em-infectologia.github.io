@@ -1,0 +1,34 @@
+{
+  "updatedAt": "2026-03-12T00:00:00Z",
+  "source": "fallback",
+  "items": [
+    {
+      "id": "fallback-1",
+      "caption": "Post do Instagram @qualisinfectologia",
+      "media_type": "IMAGE",
+      "image": "https://qualisinfectologia.com.br/images/Instagram/1.png",
+      "permalink": "https://www.instagram.com/qualisinfectologia/"
+    },
+    {
+      "id": "fallback-2",
+      "caption": "Post do Instagram @qualisinfectologia",
+      "media_type": "IMAGE",
+      "image": "https://qualisinfectologia.com.br/images/Instagram/2.png",
+      "permalink": "https://www.instagram.com/qualisinfectologia/"
+    },
+    {
+      "id": "fallback-3",
+      "caption": "Post do Instagram @qualisinfectologia",
+      "media_type": "IMAGE",
+      "image": "https://qualisinfectologia.com.br/images/Instagram/3.png",
+      "permalink": "https://www.instagram.com/qualisinfectologia/"
+    },
+    {
+      "id": "fallback-4",
+      "caption": "Post do Instagram @qualisinfectologia",
+      "media_type": "IMAGE",
+      "image": "https://qualisinfectologia.com.br/images/Instagram/4.png",
+      "permalink": "https://www.instagram.com/qualisinfectologia/"
+    }
+  ]
+}
