@@ -11,4 +11,4 @@ services:
     environment:
       INSTAGRAM_REFRESH_SECONDS: 21600
     ports:
-      - "81:80"
+      - "80:80"
