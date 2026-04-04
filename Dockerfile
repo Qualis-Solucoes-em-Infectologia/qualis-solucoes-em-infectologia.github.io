@@ -1,6 +1,4 @@
-FROM jekyll/builder:3.8 AS builder
-
-RUN id -u jekyll || (groupadd -r jekyll && useradd -r -g jekyll jekyll)
+FROM jekyll/builder:4 AS builder
 
 RUN mkdir /app && chown -R jekyll:jekyll /app
 
@@ -13,10 +11,7 @@ ENV JEKYLL_ENV=production \
     JEKYLL_UID=1000
 RUN jekyll build 
 
-FROM nginx
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends curl jq ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
+FROM nginx:alpine
 
 COPY --from=builder /app/_site /usr/share/nginx/html
 COPY scripts/update-instagram-feed.sh /usr/local/bin/update-instagram-feed.sh
