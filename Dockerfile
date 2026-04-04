@@ -1,18 +1,22 @@
-FROM jekyll/jekyll:4 AS builder
+FROM ruby:3.2-alpine AS builder
 
-WORKDIR /srv/jekyll
+RUN apk add --no-cache build-base gcc cmake git
+
+WORKDIR /app
+
+# instala jekyll e bundler
+RUN gem install jekyll bundler
 
 COPY . .
 
-ENV JEKYLL_ENV=production
-
+RUN bundle install || true
 RUN jekyll build
 
 # -----------------------------
 
 FROM nginx:alpine
 
-COPY --from=builder /srv/jekyll/_site /usr/share/nginx/html
+COPY --from=builder /app/_site /usr/share/nginx/html
 COPY scripts/update-instagram-feed.sh /usr/local/bin/update-instagram-feed.sh
 COPY scripts/start-nginx.sh /usr/local/bin/start-nginx.sh
 
