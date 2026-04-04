@@ -2,7 +2,7 @@
 set -eu
 
 FEED_PATH="${INSTAGRAM_FEED_PATH:-/usr/share/nginx/html/instagram-feed.json}"
-TOKEN_CLEAN="IGAAc8SVTWu1NBZAGJrUWRSQ3BCR2trOWUtQU9xWHdzYzFnbEZA5d0JpenFCUFd5dTJja25JeGwxZAWJicGdUOHZAUeUV2SzZAaVThLZAUI0YWE3azB1UEpFYXZAFTzh2aElMbmlwbElsVEt1ZAk94WDlnenFzbFhUWk1oWHlIOXlpWUlzawZDZD"
+TOKEN_CLEAN="IGAAc8SVTWu1NBZAGExWFNoOVM0bktYVHlsOEU5S1FtaDR6M2JIcUJ0eUZAUcHNpMHlRdUhYRVFQdXhQTzM5Y19mR21lbnN5OGo4TUUwZAWNRNmNlVGprTFFHMWhpVDFwTzREUkJ6ZADhwTkl1R3R0SkEwSU5OWE1BVHF4ZA2VDSmlLZAwZDZD"
 API_URL="https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink,timestamp&limit=12&access_token=${TOKEN_CLEAN}"
 HEADER_FILE="$(mktemp)"
 BODY_FILE="$(mktemp)"
